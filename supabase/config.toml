@@ -1,0 +1,11 @@
+[functions.hmg-api]
+verify_jwt = true
+entrypoint = "./functions/hmg-api/index.ts"
+
+[functions.exotel-whatsapp-webhook]
+verify_jwt = false
+entrypoint = "./functions/exotel-whatsapp-webhook/index.ts"
+
+[functions.exotel-call-webhook]
+verify_jwt = false
+entrypoint = "./functions/exotel-call-webhook/index.ts"
